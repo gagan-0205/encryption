@@ -1,0 +1,84 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Bhuvan E} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+1(123) 456-7890 \\ San Francisco, CA} 
+\address{\href{mailto:103.bhuvan@gmail.com}{email} \\ \href{https://github.com/bhu1-103/swiss-army-katana}{github} \\ \href{https://bhu1-103.github.io/bhu1-103/}{website}}  %
+
+\begin{document}
+
+%------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+
+{incomplete, will finish later, but i have a lot of things i want to do in life, like gamedev etc}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Electronics and Communication Engineering}, PES University \hfill {2021 - 2025}\\
+
+{\bf Minor in Computer Science}, PES University \hfill
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Technical Skills & A, B, C, D
+\\
+Soft Skills & A, B, C, D\\
+XYZ & A, B, C, D\\
+\end{tabular}\\
+\end{rSection}
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Automated Game Player using raspberry pi and servo motors -} {Implemented live camera feedback to Raspberry Pi for servo-controlled player movement using keyboard inputs for real-time navigation.} {\href{https://hiring-search.careerflow.ai/}{(Try it here)}}
+\item {\textbf{\href{https://www.google.com}{Shadow casting - }}} {Real-time shadow casting simulation using Pygame and geometric calculations with Shapely, integrating dynamic player control via mouse input and rendering interactive environments with obstacles.}
+\item \textbf{Web rendering proxy - } {Enables legacy devices without modern SSL to browse the modern web by using a headless chromium instance as host and sending repeated screenshots matching the client device.}
+\item \textbf{Network-wide ad blocker - } {Using dnsmasq, we redirect the blacklisted sites to a sinkhole (0.0.0.0) which effectively blocks the blacklisted sites. This can also be used for blocking ads and parental controls.}
+\item \textbf{Minimal display driver for risc v - } {Developed an interpreter using ImageMagick and shell scripting to convert .png images into a format suitable for direct display on a 16x16 LED matrix within a RISC-V simulator.}
+\item \textbf{Kodi homebrew - } {Used Apache2 to host a local website and adjusted DNS settings to redirect incoming traffic to a Raspberry Pi NAS hosting movies and music, facilitating direct media access and downloads.}
+\item \textbf{RFID Security Mechanism - } {It changes card IDs when scanned to prevent cloned cards from being used alongside the original. This triggers alerts for unauthorized access and helps identify the perpetrator through access logs.}
+\item \textbf{Image encryption - } {Developed image encryption using OpenCV with clever pixel manipulation techniques to create a static-like appearance for secure transmission and decryption with a designated method.}
+\item \textbf{Steganography - } {Implemented steganography with 3-bit data per pixel, requiring 2 pixels (6 bits) per character to embed sentences covertly into images, ensuring minimal color intensity changes for discreet data insertion.}
+\item \textbf{USB rubber ducky using Raspberry pi - } {Configured Raspberry Pi Zero 2 W's USB gadget mode configuration to emulate an Apple Magic keyboard undetected by host. Developed a custom scripting language for rapid and precise input on the host computer. Can be used for automation too. }
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Curricular Activities} 
+\begin{itemize}
+    \item 	Actively write \href{https://www.faangpath.com/blog/}{blog posts} and social media posts (\href{https://www.tiktok.com/@faangpath}{TikTok}, \href{https://www.instagram.com/faangpath/?hl=en}{Instagram}) viewed by over 20K+ job seekers per week to help people with best practices to land their dream jobs. 
+    \item	Sample bullet point.
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Leadership} 
+\begin{itemize}
+    \item nothing really, i work best when alone. btw, just check the projects...
+\end{itemize}
+
+
+\end{rSection}
+
+
+\end{document}
+
